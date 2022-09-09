@@ -1,0 +1,17 @@
+function start()
+{
+	console.log("ts start...");
+}
+
+a = 10;
+
+function update()
+{
+	a++;
+	console.log("ts update..." + a);
+}
+
+function ondestroy()
+{
+	console.log("ts ondestroy...");
+}
