@@ -60,3 +60,5 @@ crashlytics-build.properties
 
 NiScript/UserSettings
 NiScript/.vsconfig
+NiScript/Assets/StreamingAssets/app
+NiScript/Assets/StreamingAssets/app.meta

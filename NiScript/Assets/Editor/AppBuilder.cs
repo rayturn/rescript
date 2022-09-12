@@ -34,7 +34,7 @@ public class AppBuilder
             AssetBundleBuild bundleBuild = BuildScene(scene);
             bundleBuilds.Add(bundleBuild);
         }
-        string outputPath = Path.Combine(Application.streamingAssetsPath, manifest.package);
+        string outputPath = Path.Combine(Application.streamingAssetsPath,"app" ,manifest.package);
         Directory.CreateDirectory(outputPath);
         BuildPipeline.BuildAssetBundles(outputPath, bundleBuilds.ToArray(), BuildAssetBundleOptions.ChunkBasedCompression, EditorUserBuildSettings.activeBuildTarget);
     }
